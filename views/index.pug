@@ -1,0 +1,15 @@
+
+h1 Index
+h3 Top stories
+ul
+  li S1
+  li s2
+  li s#
+
+if user
+  pre= JSON.stringify(user)
+  a(href='/new-story') New story
+else
+  a(href='/login') Login
+
+pre !{JSON.stringify(blogs)}
